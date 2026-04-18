@@ -13,7 +13,7 @@ export class MovementSystem {
   }
 
   update(deltaTime) {
-    if (!this.input.controls.isLocked) return;
+    if (!this.input.controls.isLocked && !this.input.isTouchDevice) return;
 
     // Apply friction to slow down over time
     this.velocity.x -= this.velocity.x * this.friction * deltaTime;
