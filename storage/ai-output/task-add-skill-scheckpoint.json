@@ -1,0 +1,8 @@
+{
+  "task_id": "add-skill-scheckpoint",
+  "prompt": "Follow instructions in #prompt:SKILL.md",
+  "status": "in_progress",
+  "progress": "Initialized ai-checkpoint-memory skill workflow for this session, resolved user action as save in_progress, validated id handling, and prepared checkpoint persistence path under storage/ai-output/.",
+  "result": null,
+  "updated_at": "2026-04-22T15:30:59.1162315+07:00"
+}
